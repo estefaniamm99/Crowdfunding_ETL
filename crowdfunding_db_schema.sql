@@ -4,7 +4,8 @@
 
 CREATE TABLE "contacts" (
     "contact_id" INT(4)   NOT NULL,
-    "name" VARCHAR(30)   NOT NULL,
+    "first_name" VARCHAR(30)   NOT NULL,
+    "last_name" VARCHAR(30)   NOT NULL,
     "email" VARCHAR(30)   NOT NULL,
     CONSTRAINT "pk_contacts" PRIMARY KEY (
         "contact_id"
